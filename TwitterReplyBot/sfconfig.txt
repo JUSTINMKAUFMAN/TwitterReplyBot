@@ -1,0 +1,6 @@
+--swiftversion 5
+--commas inline
+--comments ignore
+--stripunusedargs closure-only
+--disable redundantReturn
+--exclude Pods, .swiftformat
