@@ -3,6 +3,7 @@ import Foundation
 
 class Coderunner: Module {
     let handle: String = "code_swift"
+    let blacklist: [String] = ["1203814934510858240"]
 
     func output(for reply: Reply, _ completion: @escaping ((String) -> Void)) {
         guard let path = Bundle.main.path(forResource: "Coderunner", ofType: nil) else {

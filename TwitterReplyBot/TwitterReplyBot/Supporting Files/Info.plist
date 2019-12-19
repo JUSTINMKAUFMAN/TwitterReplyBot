@@ -27,7 +27,7 @@
 			<string>com.jmkauf.TwitterReplyBot-Scheme</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>twitter</string>
+				<string>swifter</string>
 			</array>
 		</dict>
 		<dict>
@@ -35,7 +35,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>twitter-nLl1mNYc25avPPF4oIzMyQzft</string>
+				<string>swifter-nLl1mNYc25avPPF4oIzMyQzft</string>
 			</array>
 		</dict>
 	</array>
