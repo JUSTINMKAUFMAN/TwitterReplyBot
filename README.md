@@ -2,11 +2,7 @@
 Automate Tweet-replies to mentions for a specified user
 
 <p>
-    <a href="https://github.com/JUSTINMKAUFMAN" rel="nofollow"><img src="https://camo.githubusercontent.com/1a8ae43a475543efd8c1b1a0d4cad4ec09a3a95d/68747470733a2f2f696d672e736869656c64732e696f2f636f636f61706f64732f762f546f704472617765722e7376673f7374796c653d666c6174" alt="Version" data-canonical-src="https://img.shields.io/cocoapods/v/TopDrawer.svg?style=flat" style="max-width:100%;">
-    </a>
-    <a href="https://github.com/JUSTINMKAUFMAN" rel="nofollow"><img src="https://camo.githubusercontent.com/9e25ea9748467982675f953c0672b4149ae30faa/68747470733a2f2f696d672e736869656c64732e696f2f636f636f61706f64732f6c2f546f704472617765722e7376673f7374796c653d666c6174" alt="License" data-canonical-src="https://img.shields.io/cocoapods/l/TopDrawer.svg?style=flat" style="max-width:100%;">
-    </a>
-    <a href="https://github.com/JUSTINMKAUFMAN" rel="nofollow"><img src="https://camo.githubusercontent.com/e2a21ce7469082b68c3a5fa680d28c041516eea0/68747470733a2f2f696d672e736869656c64732e696f2f636f636f61706f64732f702f546f704472617765722e7376673f7374796c653d666c6174" alt="Platform" data-canonical-src="https://img.shields.io/badge/platform-macOS-blue.svg?style=flat" style="max-width:100%;">
+    <a href="https://github.com/JUSTINMKAUFMAN" rel="nofollow"><img src="https://img.shields.io/badge/platform-macOS-blue" alt="Platform" data-canonical-src="https://img.shields.io/badge/platform-macOS-blue" style="max-width:100%;">
     </a>
 <p>
 
