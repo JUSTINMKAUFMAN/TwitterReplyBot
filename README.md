@@ -20,7 +20,7 @@ At a high-level, that means you create `Module`s consisting of a single function
 
 `func output(for reply: Reply, _ completion: @escaping ((String) -> Void))`
 
-The `Bot` then calls its module's `output` method anytime it detects a new Tweet and automatically posts a reply (from the bot) with the string it received.
+The `Bot` calls its module's `output` method anytime it detects a new Tweet and automatically posts a reply (from the bot) with the string it received.
 
 ## Background
 
@@ -41,10 +41,12 @@ Option 2: Download the latest built binary from releases, unzip, and run.
 1. Run the app and enter your Twitter API Key/Secret in the input fields at the bottom of the window
 2. Click `Update`
 3. Send a tweet to the bot and watch it reply!
-4. Add your own `Module`
+4. Add your own `Module` (change modules by updating the definition in `Constants.swift`)
 
 ## Credit
 
-In order to authorize and communicate with the Twitter API, this app copies and modifies source from the excellent [Swifter]( https://github.com/mattdonnelly/Swifter) library by Matt Donnelly. In the future - and assuming there is interest in this project - I will probably try to fork the Swifter library properly; this was just easier when I wasn't sure where the project was going.
+In order to authorize and communicate with the Twitter API, this app copies and modifies source from the excellent [Swifter]( https://github.com/mattdonnelly/Swifter) library by Matt Donnelly. 
+
+In the future - and assuming there is interest in this project - I will probably try to fork the Swifter library properly; this was just easier when I wasn't sure where the project was going.
 
 #### © 2020 Justin Kaufman
