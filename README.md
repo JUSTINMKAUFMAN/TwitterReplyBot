@@ -1,5 +1,5 @@
 # TwitterReplyBot
-Automate Tweet-replies to mentions for a specified user
+Automate replies to Tweets for the authorized user
 
 <p>
     <a href="https://github.com/JUSTINMKAUFMAN" rel="nofollow"><img src="https://img.shields.io/badge/platform-macOS-blue" alt="Platform" data-canonical-src="https://img.shields.io/badge/platform-macOS-blue" style="max-width:100%;">
