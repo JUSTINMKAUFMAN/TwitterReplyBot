@@ -1,6 +1,7 @@
 import Cocoa
 
 class BotViewController: NSViewController {
+    /// User interface elements
     @IBOutlet var keyField: NSTextField!
     @IBOutlet var secretField: NSTextField!
     @IBOutlet var updateButton: NSButton!
@@ -8,6 +9,7 @@ class BotViewController: NSViewController {
     @IBOutlet var statusImage: NSImageView!
     @IBOutlet var tableView: NSTableView!
 
+    /// Tweets datasource
     @objc dynamic var tweets: [Tweet] = []
 
     private var bot: Bot? {
@@ -45,6 +47,8 @@ class BotViewController: NSViewController {
     }
 }
 
+// MARK: BotDelegate
+
 extension BotViewController: BotDelegate {
     func botDidChangeStatus(_ isAuthorized: Bool) {
         DispatchQueue.main.async { [weak self] in
@@ -64,6 +68,8 @@ extension BotViewController: BotDelegate {
         }
     }
 }
+
+// MARK: NSTableViewDelegate
 
 extension BotViewController: NSTableViewDelegate {
     func tableViewColumnDidResize(_ notification: Notification) {

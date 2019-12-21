@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		062763B123A44B43003A92B1 /* Coderunner in Resources */ = {isa = PBXBuildFile; fileRef = 062763AF23A44AA1003A92B1 /* Coderunner */; };
 		062763B323A7FB42003A92B1 /* Reply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062763B223A7FB42003A92B1 /* Reply.swift */; };
 		062763B523A7FB6B003A92B1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062763B423A7FB6B003A92B1 /* Constants.swift */; };
 		062763B923A7FCF5003A92B1 /* Bot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062763B823A7FCF5003A92B1 /* Bot.swift */; };
@@ -62,12 +61,10 @@
 		06FE2B1D239DA3E600A4CC48 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FE2B1C239DA3E600A4CC48 /* HMAC.swift */; };
 		06FE2B1E239DA3E600A4CC48 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FE2B1A239DA3E600A4CC48 /* Utils.swift */; };
 		06FE2B1F239DA3E600A4CC48 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FE2B1B239DA3E600A4CC48 /* SHA1.swift */; };
-		06FE2B37239DA4D100A4CC48 /* Coderunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FE2B2C239DA4CC00A4CC48 /* Coderunner.swift */; };
 		06FE2B39239DA56400A4CC48 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FE2B38239DA56400A4CC48 /* Tweet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		062763AF23A44AA1003A92B1 /* Coderunner */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Coderunner; sourceTree = BUILT_PRODUCTS_DIR; };
 		062763B223A7FB42003A92B1 /* Reply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reply.swift; sourceTree = "<group>"; };
 		062763B423A7FB6B003A92B1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		062763B823A7FCF5003A92B1 /* Bot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bot.swift; sourceTree = "<group>"; };
@@ -125,7 +122,6 @@
 		06FE2B1A239DA3E600A4CC48 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		06FE2B1B239DA3E600A4CC48 /* SHA1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHA1.swift; sourceTree = "<group>"; };
 		06FE2B1C239DA3E600A4CC48 /* HMAC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMAC.swift; sourceTree = "<group>"; };
-		06FE2B2C239DA4CC00A4CC48 /* Coderunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coderunner.swift; sourceTree = "<group>"; };
 		06FE2B38239DA56400A4CC48 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,19 +141,9 @@
 			children = (
 				062763D923A9B3D8003A92B1 /* Modules.swift */,
 				062763CB23A9421C003A92B1 /* BankVault */,
-				062763CA23A94209003A92B1 /* Coderunner */,
 				062763CC23A94224003A92B1 /* StringEncrypter */,
 			);
 			path = Modules;
-			sourceTree = "<group>";
-		};
-		062763CA23A94209003A92B1 /* Coderunner */ = {
-			isa = PBXGroup;
-			children = (
-				062763AF23A44AA1003A92B1 /* Coderunner */,
-				06FE2B2C239DA4CC00A4CC48 /* Coderunner.swift */,
-			);
-			path = Coderunner;
 			sourceTree = "<group>";
 		};
 		062763CB23A9421C003A92B1 /* BankVault */ = {
@@ -354,7 +340,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				062763B123A44B43003A92B1 /* Coderunner in Resources */,
 				06FE2ACA239DA3B900A4CC48 /* Assets.xcassets in Resources */,
 				06FE2ACD239DA3B900A4CC48 /* Main.storyboard in Resources */,
 			);
@@ -406,7 +391,6 @@
 				06FE2B05239DA3D700A4CC48 /* SwifterLists.swift in Sources */,
 				06FE2AF9239DA3D700A4CC48 /* SwifterHelp.swift in Sources */,
 				062763D223A943ED003A92B1 /* StringEncrypter.swift in Sources */,
-				06FE2B37239DA4D100A4CC48 /* Coderunner.swift in Sources */,
 				06FE2AF8239DA3D700A4CC48 /* SwifterTag.swift in Sources */,
 				062763C223A81E26003A92B1 /* TwitterReplyBot+Bundle.swift in Sources */,
 				06FE2AFD239DA3D700A4CC48 /* JSON.swift in Sources */,

@@ -1,9 +1,9 @@
 import Foundation
 
-extension Modules {
-    static let bankVault: BankVault = BankVault()
-}
-
+/**
+ See the following link for more info:
+ https://github.com/JUSTINMKAUFMAN/TwitterCodebreaker
+ */
 class BankVault: Module {
     let handle: String = "Codebre42333063"
 
@@ -30,7 +30,7 @@ class BankVault: Module {
         let testTweet: Reply = Reply(
             id: UUID().uuidString,
             text: "This is a test",
-            authorId: twitterAccountId,
+            authorId: "39783948",
             authorHandle: "JUSTINMKAUFMAN",
             timestamp: "29375395729"
         )
@@ -53,4 +53,10 @@ private extension BankVault {
             .map { ($0.0 >= sum.count) ? "⚫️" : ($0.1 == Array(sum)[$0.0]) ? "🟢" : $0.1 > Array(sum)[$0.0] ? "⬆️" : "⬇️" }
             .joined()
     }
+}
+
+// MARK: Convenience
+
+extension Modules {
+    static let bankVault: BankVault = BankVault()
 }

@@ -20,20 +20,6 @@
                ReferencedContainer = "container:TwitterReplyBot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "064E3A8F239C4B44004D1314"
-               BuildableName = "Coderunner"
-               BlueprintName = "Coderunner"
-               ReferencedContainer = "container:../Modules/Coderunner/Coderunner.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

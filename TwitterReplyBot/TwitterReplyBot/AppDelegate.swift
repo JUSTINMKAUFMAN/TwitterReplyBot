@@ -1,8 +1,5 @@
 import Cocoa
 
-/// Define a bot module to use
-let botModule: Module = Modules.coderunner
-
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {

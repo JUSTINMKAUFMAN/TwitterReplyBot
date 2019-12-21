@@ -1,7 +1,11 @@
 import Foundation
 
+/**
+ See the following link for more info:
+ https://github.com/JUSTINMKAUFMAN/TwitterCodebreaker
+ */
 class StringEncrypter: Module {
-    let handle: String = "JUSTINMKAUFMAN"
+    let handle: String = "code_swift"
 
     func output(for reply: Reply, _ completion: @escaping ((String) -> Void)) {
         completion(encrypt(reply.text))
@@ -11,7 +15,7 @@ class StringEncrypter: Module {
         let testTweet: Reply = Reply(
             id: UUID().uuidString,
             text: "This is a test",
-            authorId: twitterAccountId,
+            authorId: "3947394",
             authorHandle: "JUSTINMKAUFMAN",
             timestamp: "29375395729"
         )
@@ -33,6 +37,8 @@ private extension StringEncrypter {
         return String(text.unicodeScalars.enumerated().map { Character(UnicodeScalar($0.1.value - (UInt32($0.0) + 1))!) })
     }
 }
+
+// MARK: Convenience
 
 extension Modules {
     static let stringEncrypter: StringEncrypter = StringEncrypter()
