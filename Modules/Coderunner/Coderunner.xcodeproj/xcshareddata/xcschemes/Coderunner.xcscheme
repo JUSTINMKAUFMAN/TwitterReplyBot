@@ -17,21 +17,7 @@
                BlueprintIdentifier = "064E3A8F239C4B44004D1314"
                BuildableName = "Coderunner"
                BlueprintName = "Coderunner"
-               ReferencedContainer = "container:../Modules/Coderunner/Coderunner.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "06FE2AC1239DA3B600A4CC48"
-               BuildableName = "TwitterReplyBot.app"
-               BlueprintName = "TwitterReplyBot"
-               ReferencedContainer = "container:TwitterReplyBot.xcodeproj">
+               ReferencedContainer = "container:Coderunner.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -58,10 +44,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "06FE2AC1239DA3B600A4CC48"
-            BuildableName = "TwitterReplyBot.app"
-            BlueprintName = "TwitterReplyBot"
-            ReferencedContainer = "container:TwitterReplyBot.xcodeproj">
+            BlueprintIdentifier = "064E3A8F239C4B44004D1314"
+            BuildableName = "Coderunner"
+            BlueprintName = "Coderunner"
+            ReferencedContainer = "container:Coderunner.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -75,10 +61,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "06FE2AC1239DA3B600A4CC48"
-            BuildableName = "TwitterReplyBot.app"
-            BlueprintName = "TwitterReplyBot"
-            ReferencedContainer = "container:TwitterReplyBot.xcodeproj">
+            BlueprintIdentifier = "064E3A8F239C4B44004D1314"
+            BuildableName = "Coderunner"
+            BlueprintName = "Coderunner"
+            ReferencedContainer = "container:Coderunner.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

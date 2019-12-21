@@ -4,7 +4,7 @@ import Foundation
 // MARK: Bot Module
 
 /// Define the bot module to use
-let botModule: Module = Modules.stringEncrypter
+let botModule: Module = Modules.coderunner
 
 // MARK: Twitter API
 

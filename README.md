@@ -1,6 +1,8 @@
 # TwitterReplyBot
 Automate replies to Tweets for the authorized user
 
+### ***IMPORTANT:*** This is an *experimental* branch for running live Swift code via Twitter (you probably want the `master` branch). If you did come here on purpose, I do *not* recommend trying the `Coderunner` module in this branch on a machine you care about! If you do, you do so entirely at your own risk. You were warned.
+
 <p>
     <a href="https://github.com/JUSTINMKAUFMAN" rel="nofollow"><img src="https://img.shields.io/badge/platform-macOS-blue" alt="Platform" data-canonical-src="https://img.shields.io/badge/platform-macOS-blue" style="max-width:100%;">
     </a>

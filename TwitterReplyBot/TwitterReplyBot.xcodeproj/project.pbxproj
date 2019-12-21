@@ -20,6 +20,8 @@
 		062763D223A943ED003A92B1 /* StringEncrypter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062763D123A943ED003A92B1 /* StringEncrypter.swift */; };
 		062763DA23A9B3D8003A92B1 /* Modules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062763D923A9B3D8003A92B1 /* Modules.swift */; };
 		062763DC23A9B3F5003A92B1 /* BotDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062763DB23A9B3F5003A92B1 /* BotDelegate.swift */; };
+		062763DF23AEDFD1003A92B1 /* Coderunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062763DE23AEDFCE003A92B1 /* Coderunner.swift */; };
+		062763E323AEE005003A92B1 /* Coderunner in Resources */ = {isa = PBXBuildFile; fileRef = 062763E223AEE000003A92B1 /* Coderunner */; };
 		06BAFC1823A4064700B42732 /* TwitterReplyBot+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BAFC1723A4064700B42732 /* TwitterReplyBot+String.swift */; };
 		06FE2AC6239DA3B600A4CC48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FE2AC5239DA3B600A4CC48 /* AppDelegate.swift */; };
 		06FE2AC8239DA3B600A4CC48 /* BotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FE2AC7239DA3B600A4CC48 /* BotViewController.swift */; };
@@ -78,6 +80,8 @@
 		062763D123A943ED003A92B1 /* StringEncrypter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEncrypter.swift; sourceTree = "<group>"; };
 		062763D923A9B3D8003A92B1 /* Modules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modules.swift; sourceTree = "<group>"; };
 		062763DB23A9B3F5003A92B1 /* BotDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotDelegate.swift; sourceTree = "<group>"; };
+		062763DE23AEDFCE003A92B1 /* Coderunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coderunner.swift; sourceTree = "<group>"; };
+		062763E223AEE000003A92B1 /* Coderunner */ = {isa = PBXFileReference; lastKnownFileType = text; name = Coderunner; path = "../../../../../../Library/Developer/Xcode/DerivedData/TwitterReplyBot-gmkdmlyrbbjuhrcoejimvvtfqqxn/Build/Products/Debug/Coderunner"; sourceTree = "<group>"; };
 		06BAFC1723A4064700B42732 /* TwitterReplyBot+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TwitterReplyBot+String.swift"; sourceTree = "<group>"; };
 		06FE2AC2239DA3B600A4CC48 /* TwitterReplyBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterReplyBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06FE2AC5239DA3B600A4CC48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +145,7 @@
 			children = (
 				062763D923A9B3D8003A92B1 /* Modules.swift */,
 				062763CB23A9421C003A92B1 /* BankVault */,
+				062763DD23AEDFC0003A92B1 /* Coderunner */,
 				062763CC23A94224003A92B1 /* StringEncrypter */,
 			);
 			path = Modules;
@@ -160,6 +165,15 @@
 				062763D123A943ED003A92B1 /* StringEncrypter.swift */,
 			);
 			path = StringEncrypter;
+			sourceTree = "<group>";
+		};
+		062763DD23AEDFC0003A92B1 /* Coderunner */ = {
+			isa = PBXGroup;
+			children = (
+				062763DE23AEDFCE003A92B1 /* Coderunner.swift */,
+				062763E223AEE000003A92B1 /* Coderunner */,
+			);
+			path = Coderunner;
 			sourceTree = "<group>";
 		};
 		06835A2823A42C4900831689 /* Bot */ = {
@@ -340,6 +354,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				062763E323AEE005003A92B1 /* Coderunner in Resources */,
 				06FE2ACA239DA3B900A4CC48 /* Assets.xcassets in Resources */,
 				06FE2ACD239DA3B900A4CC48 /* Main.storyboard in Resources */,
 			);
@@ -382,6 +397,7 @@
 				06FE2B01239DA3D700A4CC48 /* SwifterTrends.swift in Sources */,
 				062763B323A7FB42003A92B1 /* Reply.swift in Sources */,
 				062763C023A806F0003A92B1 /* TwitterReplyBot+JSON.swift in Sources */,
+				062763DF23AEDFD1003A92B1 /* Coderunner.swift in Sources */,
 				06FE2B00239DA3D700A4CC48 /* SwifterSearch.swift in Sources */,
 				06FE2AFA239DA3D700A4CC48 /* SwifterPlaces.swift in Sources */,
 				06BAFC1823A4064700B42732 /* TwitterReplyBot+String.swift in Sources */,
